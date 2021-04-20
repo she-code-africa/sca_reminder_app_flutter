@@ -8,12 +8,24 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Reminder App-SCA',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: MaterialColor(0xFF222332, <int, Color>{
+          50: Color(0xFF222332),
+          100: Color(0xFF222332),
+          200: Color(0xFF222332),
+          300: Color(0xFF222332),
+          400: Color(0xFF222332),
+          500: Color(0xFF222332),
+          600: Color(0xFF222332),
+          700: Color(0xFF222332),
+          800: Color(0xFF222332),
+          900: Color(0xFF222332),
+        }),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'SCA Reminder Application'),
     );
   }
 }
@@ -41,6 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+        brightness: Brightness.dark,
       ),
       body: Center(
         child: Column(
