@@ -4,7 +4,7 @@
 ## About the application
 The reminder application is a type of time management application that is designed to alert the user of schedules that have been added to the application. The application currently uses the notification alert type technique, other suggested technique might be added later in the future.
 
-This application offer robust features to become productive and organize, both personal and professional life, in an efficient manner. Users can set reminders notifications by creating a task and setting its due dates, notifications automatically pops up on the due date and few hours before the due date. 
+This application offers robust features to become productive and organize, both personal and professional life, in an efficient manner. Users can set reminders notifications by creating a task and setting its due dates, notifications automatically pops up on the due date and few hours before the due date. 
 
 ## Folder Structure
 
@@ -50,7 +50,7 @@ Issues can be submitted by anyone - seasoned developers or newbies.
 2.  Fork the project on GitHub.
     [Help Guide to Fork a Repository](https://help.github.com/en/articles/fork-a-repo/).
 
-    ![Illustration for How to Fork a Repository](https://hisham.hm/img/posts/github-fork.png)
+    ![Capture](https://user-images.githubusercontent.com/32166619/115340532-c1027300-a19e-11eb-9d6a-42dcaa2d28d2.PNG)
 
 3.  Clone the project.
     [Help Guide to Clone a Repository](https://help.github.com/en/articles/cloning-a-repository)
